@@ -1,0 +1,95 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    display: flex; /* Untuk memposisikan konten di tengah */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Styling Khusus untuk Form Login/Register */
+.login-box {
+    max-width: 400px;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Input Fields */
+input[type="text"], 
+input[type="password"],
+select.input-full {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Agar padding tidak melebarkan input */
+}
+
+/* Labels */
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Tombol */
+.btn-main {
+    background-color: #5c6bc0; /* Warna ungu/biru (mirip contoh) */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.btn-main:hover {
+    background-color: #3f51b5;
+}
+
+/* Warna Pemberitahuan */
+.vulnerable-text {
+    color: #d32f2f; /* Merah */
+    font-weight: bold;
+    background-color: #ffebee;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.safe-text {
+    color: #388e3c; /* Hijau */
+    font-weight: bold;
+    background-color: #e8f5e9;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Style untuk dropdown */
+select.input-full {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Agar padding tidak melebarkan input */
+    background-color: white; /* Tambahan agar terlihat di-theme */
+}
